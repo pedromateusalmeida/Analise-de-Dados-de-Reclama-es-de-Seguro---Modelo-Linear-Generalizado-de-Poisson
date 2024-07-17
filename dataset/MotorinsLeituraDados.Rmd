@@ -1,0 +1,32 @@
+---
+title: "Motorins"
+author: "Marcelo Azevedo Costa"
+date: "02/07/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Leitura do banco de dados
+```{r}
+
+ dados <- read.csv("motorins.dat", sep="")
+
+ dados$Kilometres <- as.factor(dados$Kilometres)
+ dados$Zone       <- as.factor(dados$Zone)
+ dados$Make       <- as.factor(dados$Make)
+
+```
+
+
+# Analise exploratoria
+
+
+# Ajuste do Modelo
+
+
+
+
